@@ -1,0 +1,35 @@
+.navbar-brand{
+    display: block !important;
+    font-size: 30px !important;
+    /*padding-right: 10% !important;*/
+    color:whitesmoke !important;
+}
+
+
+
+.navbar-toggler{
+    text-align: center !important;
+}
+
+
+
+.nav-link{
+    color:whitesmoke !important;
+}
+
+
+
+.navbar{
+    padding-left: 0% !important;
+}
+
+
+.bi-person{
+    color: red !important;
+}
+
+
+
+.hr1{
+    border: 2px yellow !important;
+}
