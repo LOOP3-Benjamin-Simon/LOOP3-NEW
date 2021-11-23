@@ -112,10 +112,9 @@ WHERE approved=0");
                                                 DELETE FROM frontend_blivkunde
                                                 WHERE kunde_id=".$customer['kunde_id'].";
                                                 ");
-                                            echo "approve";
                         
                                             //refresh the page to display that the applicant is removed from the application list
-                                            header("Refresh;");
+                                            header("Refresh:0");
                                         
                                         } 
                         
@@ -131,7 +130,9 @@ WHERE approved=0");
                                                 DELETE FROM frontend_blivkunde
                                                 WHERE kunde_id=".$_POST['kunde_id'].";"
                                             );
-                                            echo "reject";
+                                            
+                                            //refresh the page to reload
+                                            header("Refresh:0");
                                         }
                         
                                         ?>
