@@ -8,7 +8,7 @@ if (!isset($_SESSION['kunde_id'])) {
     die();
 }
 
-if ($_SESSION['kunde_status'] = 0 ) {
+if ($_SESSION['kunde_status'] == '0' ) {
     echo "<p class='error'>Du har ikke kunde-rettigheder og har derfor ikke adgang til denne side.</p>";
     require_once('includes/footer.php');
     die();
